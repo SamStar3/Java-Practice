@@ -8,7 +8,7 @@ public class Main {
         System.out.println("Age " + (currentyear-age));
         String userAgeWithPartialYear = "22.5";
         double ageWithPartialYear = Double.parseDouble(userAgeWithPartialYear);
-        System.out.println( "The user say's heageWithPartialYear);
+        System.out.println( "The user says he's "+ageWithPartialYear);
 
     }
 }
