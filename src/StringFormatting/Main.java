@@ -1,2 +1,7 @@
-package StringFormatting;public class Main {
+package StringFormatting;
+
+public class Main {
+    public static void main(String[] args){
+
+    }
 }

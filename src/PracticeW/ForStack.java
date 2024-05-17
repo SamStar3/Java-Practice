@@ -1,2 +1,5 @@
-package PracticeW;public class ForStack {
+package PracticeW;
+
+public class ForStack {
+
 }
