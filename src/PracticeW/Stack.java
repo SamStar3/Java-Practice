@@ -1,2 +1,5 @@
-package PracticeW;public class Stack {
+package PracticeW;
+
+public class Stack {
+
 }
