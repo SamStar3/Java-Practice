@@ -1,2 +1,4 @@
-package SearchDSA;public class AllocateMinimumPages {
+package SearchDSA;
+
+public class AllocateMinimumPages {
 }
