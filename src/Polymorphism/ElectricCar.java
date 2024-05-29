@@ -1,2 +1,4 @@
-package Polymorphism;public class ElectricCar {
+package Polymorphism;
+
+public class ElectricCar {
 }
