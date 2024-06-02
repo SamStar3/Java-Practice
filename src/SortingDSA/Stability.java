@@ -1,2 +1,4 @@
-package SortingDSA;public class Stability {
+package SortingDSA;
+
+public class Stability {
 }
