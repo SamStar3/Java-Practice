@@ -26,9 +26,33 @@ public class MergeTwoArrays {
         while (j < n2) {
             arr3[k++] = arr2[j++];
         }
+        int n3 = arr3.length;
+        int q = 0;
+//        for(int z =0; z< n1; z++){
+//            arr1[z] = arr3[z];
+//            q++;
+//        }
+//        int s = n3 - n2 ;
+//        for(int w = 0;w<s;w++){
+//            arr2[w] = arr3[n1++];
+//        }
+        while (q < n1){
+            arr1[q++] = arr3[q++];
+        }
+
+        int x = 0;
+        while(q < n3) {
+            arr2[x++] = arr3[j++];
+        }
 
         for (int a : arr3){
             System.out.print(" " +a);
+        }
+        for(int a : arr1){
+            System.out.print(a);
+        }
+        for(int a : arr2){
+            System.out.print(a);
         }
     }
 }
