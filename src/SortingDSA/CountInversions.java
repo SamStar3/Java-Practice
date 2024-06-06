@@ -1,2 +1,4 @@
-package SortingDSA;public class CountInversions {
+package SortingDSA;
+
+public class CountInversions {
 }

@@ -43,6 +43,13 @@ public class Main {
 
         int[] forthArray = Arrays.copyOf(thirdArray,thirdArray.length);
         System.out.println(Arrays.toString(forthArray));
+
+        String[] sArray = {"sam","john","ashwin","blesson","jerwin"};
+        Arrays.sort(sArray);
+        System.out.println(Arrays.toString(sArray));
+        if (Arrays.binarySearch(sArray,"sam") >= 0){
+            System.out.println("Found sam in the List");
+        }
     }
 
     private static int[] getRandomArray(int len) {
