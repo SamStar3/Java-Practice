@@ -1,2 +1,4 @@
-package MatrixDSA;public class MakeMatrixBeautiful {
+package MatrixDSA;
+
+public class MakeMatrixBeautiful {
 }

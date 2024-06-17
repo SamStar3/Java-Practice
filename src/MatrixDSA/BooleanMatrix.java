@@ -1,2 +1,4 @@
-package MatrixDSA;public class BooleanMatrix {
+package MatrixDSA;
+
+public class BooleanMatrix {
 }
