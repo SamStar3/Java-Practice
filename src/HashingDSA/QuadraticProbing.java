@@ -1,2 +1,4 @@
-package HashingDSA;public class QuadraticProbing {
+package HashingDSA;
+
+public class QuadraticProbing {
 }

@@ -1,2 +1,4 @@
-package HashingDSA;public class CheckEqualArrays {
+package HashingDSA;
+
+public class CheckEqualArrays {
 }

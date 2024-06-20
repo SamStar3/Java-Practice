@@ -1,2 +1,4 @@
-package HashingDSA;public class OpenAddressing {
+package HashingDSA;
+
+public class OpenAddressing {
 }

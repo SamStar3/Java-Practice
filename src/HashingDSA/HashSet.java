@@ -1,2 +1,4 @@
-package HashingDSA;public class HashSet {
+package HashingDSA;
+
+public class HashSet {
 }
