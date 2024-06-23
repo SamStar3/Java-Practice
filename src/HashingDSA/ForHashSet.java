@@ -43,5 +43,34 @@ public class ForHashSet {
         System.out.println(set.size());
 
         System.out.println(set);
+
+        HashSet<String> hs = new HashSet<String>();
+
+        // Adding elements to above Set
+        // using add() method
+        hs.add("Geek");
+        hs.add("For");
+        hs.add("Geeks");
+        hs.add("A");
+        hs.add("B");
+        hs.add("Z");
+
+        // Iterating though the HashSet using iterators
+        Iterator itr = hs.iterator();
+
+        // Holds true till there is single element
+        // remaining in Set
+        while (itr.hasNext())
+
+            // Traversing elements and printing them
+            System.out.print(itr.next() + ", ");
+        System.out.println();
+
+        // Using enhanced for loop for traversal
+        for (String s : hs)
+
+            // Traversing elements and printing them
+            System.out.print(s + ", ");
+        System.out.println();
     }
 }
