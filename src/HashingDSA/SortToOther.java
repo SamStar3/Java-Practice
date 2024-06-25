@@ -13,6 +13,7 @@ public class SortToOther {
                 position.put(A2[i],i);
             }
         }
+//        position.getOrDefault((A2[1],0) +1);
 
         List<Integer> present = new ArrayList<>();
 
