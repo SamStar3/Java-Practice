@@ -1,2 +1,4 @@
-package HashingDSA;public class NumContaining {
+package HashingDSA;
+
+public class NumContaining {
 }

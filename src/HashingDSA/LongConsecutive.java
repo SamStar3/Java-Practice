@@ -1,2 +1,4 @@
-package HashingDSA;public class LongConsecutive {
+package HashingDSA;
+
+public class LongConsecutive {
 }

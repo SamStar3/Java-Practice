@@ -1,2 +1,4 @@
-package HashingDSA;public class AccountMerge {
+package HashingDSA;
+
+public class AccountMerge {
 }

@@ -1,2 +1,4 @@
-package HashingDSA;public class ZeroSum {
+package HashingDSA;
+
+public class ZeroSum {
 }

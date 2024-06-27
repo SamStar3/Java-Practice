@@ -1,2 +1,4 @@
-package HashingDSA;public class LongestSubarray {
+package HashingDSA;
+
+public class LongestSubarray {
 }

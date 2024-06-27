@@ -1,2 +1,6 @@
-package HashingDSA;public class WinnerOfElection {
+package HashingDSA;
+
+public class WinnerOfElection {
+
+
 }
