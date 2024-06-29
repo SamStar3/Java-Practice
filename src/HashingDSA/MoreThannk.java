@@ -27,11 +27,11 @@ public class MoreThannk {
         for (int x : arr) {
             m.put(x, m.getOrDefault(x, 0) + 1) ;
         }
-        for (Map.Entry<Integer, Integer> e : m){
-            if (e.getValue() >  n/k) {
-                System.out.println(e.getKey() + " ");
-            }
-        }
+//        for (Map.Entry<Integer, Integer> e : m){
+//            if (e.getValue() >  n/k) {
+//                System.out.println(e.getKey() + " ");
+//            }
+//        }
     }
 
     public static void main(String[] args) {
