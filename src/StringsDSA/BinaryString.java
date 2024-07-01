@@ -1,2 +1,4 @@
-package StringsDSA;public class BinaryString {
+package StringsDSA;
+
+public class BinaryString {
 }

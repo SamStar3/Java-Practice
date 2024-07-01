@@ -1,2 +1,4 @@
-package ArrayLists;public class Basic {
+package ArrayLists;
+
+public class Basic {
 }

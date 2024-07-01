@@ -1,2 +1,4 @@
-package ArrayLists;public class MobilePhone {
+package ArrayLists;
+
+public class MobilePhone {
 }
