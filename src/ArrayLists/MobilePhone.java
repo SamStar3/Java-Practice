@@ -1,4 +1,4 @@
 package ArrayLists;
 
-public class MobilePhone {
+public class MobilePhone    {
 }
