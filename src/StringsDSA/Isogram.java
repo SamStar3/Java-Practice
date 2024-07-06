@@ -1,2 +1,4 @@
-package StringsDSA;public class Isogram {
+package StringsDSA;
+
+public class Isogram {
 }

@@ -1,2 +1,4 @@
-package StringsDSA;public class Anagram {
+package StringsDSA;
+
+public class Anagram {
 }

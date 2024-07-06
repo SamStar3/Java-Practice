@@ -1,2 +1,4 @@
-package StringsDSA;public class RepeatingChar {
+package StringsDSA;
+
+public class RepeatingChar {
 }

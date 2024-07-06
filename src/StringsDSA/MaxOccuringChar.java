@@ -1,2 +1,4 @@
-package StringsDSA;public class MaxOccuringChar {
+package StringsDSA;
+
+public class MaxOccuringChar {
 }
