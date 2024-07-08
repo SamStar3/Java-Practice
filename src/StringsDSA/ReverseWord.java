@@ -1,2 +1,4 @@
-package StringsDSA;public class ReverseWord {
+package StringsDSA;
+
+public class ReverseWord {
 }
