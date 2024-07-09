@@ -1,2 +1,6 @@
-package StringsDSA;public class RemoveCommonChar {
+package StringsDSA;
+
+public class RemoveCommonChar {
+
+
 }

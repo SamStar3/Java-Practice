@@ -1,2 +1,4 @@
-package StringsDSA;public class SumOfNum {
+package StringsDSA;
+
+public class SumOfNum {
 }
