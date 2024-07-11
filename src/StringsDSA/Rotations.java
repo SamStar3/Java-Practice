@@ -1,2 +1,4 @@
-package StringsDSA;public class Rotations {
+package StringsDSA;
+
+public class Rotations {
 }

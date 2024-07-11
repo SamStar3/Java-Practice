@@ -1,2 +1,4 @@
-package StringsDSA;public class KMPPattern {
+package StringsDSA;
+
+public class KMPPattern {
 }
