@@ -1,2 +1,4 @@
-package LinkedListDSA;public class Traversing {
+package LinkedListDSA;
+
+public class Traversing {
 }

@@ -1,2 +1,4 @@
-package LinkedListDSA;public class FindLengthOfLoop {
+package LinkedListDSA;
+
+public class FindLengthOfLoop {
 }
