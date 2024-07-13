@@ -1,2 +1,4 @@
-package LinkedListDSA;public class Introduction {
+package LinkedListDSA;
+
+public class Introduction {
 }

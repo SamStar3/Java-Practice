@@ -1,2 +1,4 @@
-package ArrayLists;public class Playlist {
+package ArrayLists;
+
+public class Playlist {
 }

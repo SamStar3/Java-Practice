@@ -1,2 +1,4 @@
-package ArrayLists;public class Iterators {
+package ArrayLists;
+
+public class Iterators {
 }

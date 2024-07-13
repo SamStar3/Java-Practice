@@ -1,2 +1,4 @@
-package ArrayLists;public class LinkedList {
+package ArrayLists;
+
+public class LinkedList {
 }
