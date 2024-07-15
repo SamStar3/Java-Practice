@@ -1,2 +1,4 @@
-package ArrayLists;public class DeleteFirstNode {
+package ArrayLists;
+
+public class DeleteFirstNode {
 }
