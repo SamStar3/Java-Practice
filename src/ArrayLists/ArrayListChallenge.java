@@ -15,7 +15,7 @@ public class ArrayListChallenge {
         while (flag) {
             printActions();
             switch (Integer.parseInt(scanner.nextLine())) {
-                case 1 -> addItems(groceries);
+//                case 1 -> addItems(groceries);
                 default -> flag = false;
             }
             groceries.sort(Comparator.naturalOrder());
@@ -23,12 +23,12 @@ public class ArrayListChallenge {
         }
     }
 
-    private static void addItems(Arraylist<String> groceries) {
-
-        System.out.println("Add item(s) [separate items by comma] :");
-        String[] items = scanner.nextLine().split(",");
-
-    }
+//    private static void addItems(Arraylist<String> groceries) {
+//
+//        System.out.println("Add item(s) [separate items by comma] :");
+//        String[] items = scanner.nextLine().split(",");
+//
+//    }
 
     private static void printActions() {
         String textBlock = """
