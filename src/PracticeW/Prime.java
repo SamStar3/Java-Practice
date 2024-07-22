@@ -1,2 +1,4 @@
-package PracticeW;public class Prime {
+package PracticeW;
+
+public class Prime {
 }
