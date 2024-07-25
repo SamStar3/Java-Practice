@@ -1,2 +1,4 @@
-package LinkedListDSA;public class InsertCircular {
+package LinkedListDSA;
+
+public class InsertCircular {
 }

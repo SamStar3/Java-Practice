@@ -1,2 +1,4 @@
-package LinkedListDSA;public class CircularLinked {
+package LinkedListDSA;
+
+public class CircularLinked {
 }
