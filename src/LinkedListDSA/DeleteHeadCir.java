@@ -1,2 +1,4 @@
-package LinkedListDSA;public class DeleteHeadCir {
+package LinkedListDSA;
+
+public class DeleteHeadCir {
 }
