@@ -1,2 +1,8 @@
-package PracticeW;public class Heap {
+package PracticeW;
+
+public class Heap {
+
+    public static void main(String[] args) {
+
+    }
 }
