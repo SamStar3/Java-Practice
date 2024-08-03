@@ -1,2 +1,4 @@
-package LinkedListDSA;public class SortedInsert {
+package LinkedListDSA;
+
+public class SortedInsert {
 }
