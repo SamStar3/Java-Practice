@@ -1,2 +1,8 @@
-package PracticeW;public class HelloWorld {
+package PracticeW;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+
+    }
 }
