@@ -1,2 +1,4 @@
-package LinkedListDSA;public class RemoveDuplicate {
+package LinkedListDSA;
+
+public class RemoveDuplicate {
 }
