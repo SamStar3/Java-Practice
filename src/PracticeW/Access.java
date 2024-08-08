@@ -1,2 +1,4 @@
-package PracticeW;public class Access {
+package PracticeW;
+
+public class Access {
 }
