@@ -1,2 +1,4 @@
-package LinkedListDSA;public class SwapKthNode {
+package LinkedListDSA;
+
+public class SwapKthNode {
 }
