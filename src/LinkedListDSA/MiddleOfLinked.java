@@ -1,2 +1,4 @@
-package LinkedListDSA;public class MiddleOfLinked {
+package LinkedListDSA;
+
+public class MiddleOfLinked {
 }
