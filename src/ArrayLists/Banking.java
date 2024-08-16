@@ -1,2 +1,4 @@
-package ArrayLists;public class Banking {
+package ArrayLists;
+
+public class Banking {
 }

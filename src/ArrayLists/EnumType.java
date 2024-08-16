@@ -1,2 +1,4 @@
-package ArrayLists;public class EnumType {
+package ArrayLists;
+
+public class EnumType {
 }
