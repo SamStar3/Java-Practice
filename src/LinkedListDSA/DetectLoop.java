@@ -1,2 +1,4 @@
-package LinkedListDSA;public class DetectLoop {
+package LinkedListDSA;
+
+public class DetectLoop {
 }
