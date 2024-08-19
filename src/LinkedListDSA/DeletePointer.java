@@ -1,2 +1,4 @@
-package LinkedListDSA;public class DeletePointer {
+package LinkedListDSA;
+
+public class DeletePointer {
 }

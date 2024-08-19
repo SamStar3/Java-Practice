@@ -1,2 +1,4 @@
-package LinkedListDSA;public class RemoveLoop {
+package LinkedListDSA;
+
+public class RemoveLoop {
 }
