@@ -1,2 +1,4 @@
-package LinkedListDSA;public class CloneListPointer {
+package LinkedListDSA;
+
+public class CloneListPointer {
 }

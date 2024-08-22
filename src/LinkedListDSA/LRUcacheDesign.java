@@ -1,2 +1,4 @@
-package LinkedListDSA;public class LRUcacheDesign {
+package LinkedListDSA;
+
+public class LRUcacheDesign {
 }
