@@ -1,4 +1,4 @@
 package LinkedListDSA;
 
-public class LRUcacheDesign {
-}
+import java.util.HashMap;
+
