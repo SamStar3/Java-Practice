@@ -1,2 +1,4 @@
-package PracticeW;public class Fun {
+package PracticeW;
+
+public class Fun {
 }
