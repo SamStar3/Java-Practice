@@ -1,2 +1,4 @@
-package LinkedListDSA;public class XORList {
+package LinkedListDSA;
+
+public class XORList {
 }
