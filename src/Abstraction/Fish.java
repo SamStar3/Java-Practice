@@ -1,25 +1,26 @@
 package Abstraction;
 
-public class Dog extends Animal{
+public class Fish extends Animal{
 
-    public Dog(String type, String size, double weight) {
+    public Fish(String type, String size, double weight) {
+
         super(type, size,weight);
     }
 
     public void move(String speed) {
         if (speed.equals("slow")) {
-            System.out.println(type + " walking");
+            System.out.println(getExplicitType() + " lazily swimming");
         }else {
-            System.out.println(type + " runnign");
+            System.out.println(getExplicitType() + " darting frantically");
         }
     }
 
     public void makeNoise() {
 
-        if(type == "Wolf") {
-            System.out.print("Howling! ");
+        if(type == "Goldfish") {
+            System.out.print("swish ");
         }else {
-            System.out.print("Woof! ");
+            System.out.print("splash ");
         }
     }
 }
