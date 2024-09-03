@@ -1,2 +1,8 @@
-package PracticeW;public class Array {
+package PracticeW;
+
+public class Array {
+
+    public static void main(String[] args){
+
+    }
 }
