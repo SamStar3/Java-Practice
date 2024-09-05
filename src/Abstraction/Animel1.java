@@ -1,2 +1,13 @@
-package Abstraction;public class Animel1 {
+package Abstraction;
+
+
+interface FlightEnabled {
+
+}
+
+interface Trackable {
+
+}
+
+public class Animel1 {
 }
