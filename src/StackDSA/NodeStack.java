@@ -1,2 +1,4 @@
-package StackDSA;public class NodeStack {
+package StackDSA;
+
+public class NodeStack {
 }
