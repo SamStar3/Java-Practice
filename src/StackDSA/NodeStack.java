@@ -7,7 +7,7 @@ public class NodeStack {
 //    Class Node{
 //
 //    }
-private class Node {
+private static class Node {
 
     int data; // integer data
     Node link; // reference variable Node type
@@ -74,7 +74,7 @@ private class Node {
     {
         // check for stack underflow
         if (top == null) {
-            System.out.printf("\nStack Underflow");
+            System.out.print("\nStack Underflow");
             exit(1);
         }
         else {
