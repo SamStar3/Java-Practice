@@ -1,2 +1,4 @@
-package PracticeW;public class Number {
+package PracticeW;
+
+public class Number {
 }
