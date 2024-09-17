@@ -31,6 +31,8 @@ public abstract class AnimalMain1 {
         double kms = 100;
         double miles = kms * FlightEnabled.KM_TO_MILES;
         System.out.printf("The truck traveled %.2f km or %2f miles%n", kms,miles);
+
+
     }
     private static void inFlight(FlightEnabled flier){
         flier.takeOff();

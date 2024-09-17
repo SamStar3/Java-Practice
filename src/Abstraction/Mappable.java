@@ -1,2 +1,6 @@
-package Abstraction;public class Mappable {
+package Abstraction;
+
+public class Mappable {
+
+
 }
