@@ -44,7 +44,7 @@ public class MyStack {
 //    for(int i = top;i>-1;i--){
 //        System.out.print(" "+ a[i]);
 //    }
-
+//
 //    ArrayList<Integer> al = new ArrayList<>();
 //
 //    void push(int x) {
@@ -65,7 +65,7 @@ public class MyStack {
 //    int size(){
 //        return al.size();
 //    }
-
+//
 
 
 }
