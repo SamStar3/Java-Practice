@@ -1,2 +1,4 @@
-package StackDSA;public class StockSpanProblem {
+package StackDSA;
+
+public class StockSpanProblem {
 }
