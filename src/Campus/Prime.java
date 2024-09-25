@@ -20,7 +20,7 @@ public class Prime {
     static void For(int n ) {
         int count = 1;
 
-        for(int i = 2; i < n/2 ; i+=2) {
+        for(int i = 2; i < n/2 ; i++) {
             if(n % i == 0){
                 System.out.println("Is Not Prime");
                 count++;
@@ -28,7 +28,6 @@ public class Prime {
             if(count == 2) {
                 System.out.println("Is Not Prime");
             }else {
-
                 System.out.println("Is Prime");
             }
         }
