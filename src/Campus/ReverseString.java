@@ -16,6 +16,7 @@ public class ReverseString {
             result.append(capitalizedWord).append(" ");
         }
 
+        System.out.println(input);
         System.out.println(result.toString().trim());
 
 
