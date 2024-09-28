@@ -4,7 +4,6 @@ public class ReverseString {
 
     public static void main(String[] args) {
 
-        String a ="";
 
         String input = "Hello World";
         String[] words = input.split(" ");
