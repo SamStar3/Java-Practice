@@ -9,7 +9,7 @@ public class Dish {
 
         for (int i = 0; i < arr.length; i++ ){
             if (arr[i] > 0) {
-                sum += arr[i] * (i + 1);
+                sum +=   arr[i] * (i + 1);
             }
         }
 

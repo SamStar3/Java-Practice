@@ -1,2 +1,4 @@
-package Campus;public class Platform {
+package Campus;
+
+public class Platform {
 }
