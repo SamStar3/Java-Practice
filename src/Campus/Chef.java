@@ -10,7 +10,7 @@ public class Chef {
 //        int res = 0;
 //
 //        for (int i = 0; i < arr2.length; i++) {
-//            if(arr1[1] >= arr2[i]){
+//            if(arr1[1] <= arr2[i]){
 //                res += arr3[i];
 //            }
 //        }
