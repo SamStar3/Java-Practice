@@ -1,2 +1,4 @@
-package Campus;public class Length {
+package Campus;
+
+public class Length {
 }
