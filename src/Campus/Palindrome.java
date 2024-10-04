@@ -1,2 +1,4 @@
-package Campus;public class Palindrome {
+package Campus;
+
+public class Palindrome {
 }
