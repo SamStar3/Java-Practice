@@ -1,5 +1,8 @@
 package StackDSA;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Stack;
 
 
@@ -32,9 +35,11 @@ public class NextGreater {
 //18
 //-1
         Stack<Integer> s = new Stack<>();
+        ArrayList<Integer> a = new ArrayList<>();
 
         s.push(arr[n - 1]);
-        System.out.println(-1);
+//        System.out.println(-1);
+        a.add(-1);
 
         for (int i = n - 2; i >= 0; i--){
 
@@ -42,12 +47,18 @@ public class NextGreater {
                 s.pop();
             }
             if (s.empty()){
-                System.out.println(-1);
+//                System.out.println(-1);
+                a.add(-1);
             }else {
-                System.out.println(s.peek());
+//                System.out.println(s.peek());
+                a.add(s.peek());
             }
             s.push(arr[i]);
         }
+
+//        a.reversed();
+        Collections.reverse(a);
+        System.out.println(a);
     }
 
     public static void main(String[] args) {
