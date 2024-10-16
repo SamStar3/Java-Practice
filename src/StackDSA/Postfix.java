@@ -1,2 +1,4 @@
-package StackDSA;public class Postfix {
+package StackDSA;
+
+public class Postfix {
 }
