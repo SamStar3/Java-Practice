@@ -162,3 +162,4 @@ public class Prefix {
         System.out.print(infixToPrefix(s.toCharArray()));
     }
 }
+
