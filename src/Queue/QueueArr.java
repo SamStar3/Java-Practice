@@ -1,2 +1,5 @@
-package Queue;public class QueueArr {
+package Queue;
+
+public class QueueArr {
+
 }
