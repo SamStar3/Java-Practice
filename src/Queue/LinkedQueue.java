@@ -1,2 +1,4 @@
-package Queue;public class LinkedQueue {
+package Queue;
+
+public class LinkedQueue {
 }

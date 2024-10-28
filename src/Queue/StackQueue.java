@@ -1,2 +1,6 @@
-package Queue;public class StackQueue {
+package Queue;
+
+public class StackQueue {
+
+
 }
