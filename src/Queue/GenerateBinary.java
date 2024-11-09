@@ -1,2 +1,4 @@
-package Queue;public class GenerateBinary {
+package Queue;
+
+public class GenerateBinary {
 }

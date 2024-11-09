@@ -1,2 +1,4 @@
-package Queue;public class ReverseFirstK {
+package Queue;
+
+public class ReverseFirstK {
 }
