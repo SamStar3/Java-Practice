@@ -1,2 +1,8 @@
-package Deque;public class ArrayDeque {
+package Deque;
+
+public class ArrayDeque {
+
+    public static void main(){
+
+    }
 }

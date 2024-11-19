@@ -1,2 +1,4 @@
-package Deque;public class ImplDeque {
+package Deque;
+
+public class ImplDeque {
 }
