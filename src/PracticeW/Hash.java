@@ -1,2 +1,4 @@
-package PracticeW;public class Hash {
+package PracticeW;
+
+public class Hash {
 }
