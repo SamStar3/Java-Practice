@@ -22,7 +22,7 @@ public class QueueUsingStack {
         }
 
         static int deQueue() {
-            if (s1.isEmpty()) {
+            if (    s1.isEmpty()) {
                 System.out.println("Q is Empty");
                 System.exit(0);
             }
