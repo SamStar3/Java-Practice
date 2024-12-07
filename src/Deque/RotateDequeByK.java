@@ -4,20 +4,20 @@ import java.util.ArrayDeque;
 public class RotateDequeByK {
 
     public static void left_Rotate_Deq_ByK(ArrayDeque<Integer> deque, int k) {
+        // Your code here
         int n = deque.size();
-        k = k % n; // Normalize k to avoid unnecessary full rotations
-        for (int i = 0; i < k; i++) {
-            // Remove the first element and add it to the back
+        k = k % n;
+        for(int i = 0; i < k; i++){
             deque.addLast(deque.removeFirst());
         }
     }
 
-    // Function to rotate deque right by k places
     public static void right_Rotate_Deq_ByK(ArrayDeque<Integer> deque, int k) {
+        // Your code here
+
         int n = deque.size();
-        k = k % n; // Normalize k to avoid unnecessary full rotations
-        for (int i = 0; i < k; i++) {
-            // Remove the last element and add it to the front
+        k = k % n;
+        for(int i = 0; i < k; i++){
             deque.addFirst(deque.removeLast());
         }
     }
