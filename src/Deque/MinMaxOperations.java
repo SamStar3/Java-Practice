@@ -16,9 +16,6 @@ public class MinMaxOperations {
     }
 
     void enque(int data){
-        // remove all elements from
-        // from deque which are greater
-        // than the current element 'data'
         while(!dq.isEmpty() && dq.getLast() > data){
             dq.removeLast();
         }

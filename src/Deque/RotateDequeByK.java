@@ -1,2 +1,6 @@
-package Deque;public class RotateDequeByK {
+package Deque;
+
+public class RotateDequeByK {
+
+
 }
