@@ -1,2 +1,4 @@
-package Tree;public class BinaryTree {
+package Tree;
+
+public class BinaryTree {
 }

@@ -1,2 +1,4 @@
-package Tree;public class PostorderTraversal {
+package Tree;
+
+public class PostorderTraversal {
 }

@@ -1,2 +1,4 @@
-package Tree;public class InorderTraversal {
+package Tree;
+
+public class InorderTraversal {
 }
