@@ -1,2 +1,5 @@
-package Tree;public class VerticalWidth {
+package Tree;
+
+public class VerticalWidth {
+
 }
