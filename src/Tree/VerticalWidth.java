@@ -26,7 +26,7 @@ public class VerticalWidth {
         calculateHorizontalDistances(node.left, hd - 1, set);
         calculateHorizontalDistances(node.right, hd + 1, set);
     }
-
+ 
     public static void main(String[] args) {
         // Construct the binary tree
         Node root = new Node(1);
