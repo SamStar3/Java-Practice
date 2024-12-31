@@ -1,2 +1,8 @@
-package PracticeW;public class Team {
+package PracticeW;
+
+public class Team {
+
+    public static void main(String[] args){
+
+    }
 }
