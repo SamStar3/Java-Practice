@@ -74,4 +74,21 @@ public class ListToTree {
             if (current.right != null) queue.add(current.right);
         }
     }
+
+    public static void main(String[] args) {
+        ListToTree solution = new ListToTree();
+
+        // Create a linked list: 1 -> 2 -> 3 -> 4 -> 5
+        Node head = new Node(1);
+        head.next = new Node(2);
+        head.next.next = new Node(3);
+        head.next.next.next = new Node(4);
+        head.next.next.next.next = new Node(5);
+
+        // Convert the linked list to a binary tree
+        Tree root = solution.linkedListToBinaryTree(head);
+
+        // Print the level order traversal of the binary tree
+        solution.levelOrder(root); // Output: 1 2 3 4 5
+    }
 }
