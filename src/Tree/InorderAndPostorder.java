@@ -59,7 +59,6 @@ public class InorderAndPostorder {
         // Create the tree
         Node root = solution.createTree(parent);
 
-        // Print the level order traversal
-        solution.levelOrder(root); // Output: 0 1 2 3 4 5 6
+        solution.levelOrder(root);
     }
 }

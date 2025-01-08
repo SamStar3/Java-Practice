@@ -11,8 +11,7 @@ public class Regex {
 
     public static void main(String[] args) {
 
-    String input =
-            "Hello World! ";
+    String input = "Hello World! ";
     String pattern = "/b/w/b";
             Pattern p = Pattern.compile(pattern);
     Matcher m = p.matcher(input);
