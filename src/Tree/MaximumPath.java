@@ -1,2 +1,4 @@
-package Tree;public class MaximumPath {
+package Tree;
+
+public class MaximumPath {
 }
