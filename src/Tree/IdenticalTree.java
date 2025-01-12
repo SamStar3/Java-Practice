@@ -1,2 +1,9 @@
-package Tree;public class IdenticalTree {
+package Tree;
+
+public class IdenticalTree {
+
+    public static void main(String[] args){
+
+    }
+
 }
