@@ -48,7 +48,7 @@ public class SpiralForm {
         if (node == null)
             return;
         if (level == 1)
-            System.out.print(node.data + " ");
+            System.out.print(node.key + " ");
         else if (level > 1) {
             if (ltr != false) {
                 printGivenLevel(node.left, level - 1, ltr);
@@ -74,5 +74,4 @@ public class SpiralForm {
         System.out.println("Spiral order traversal of Binary Tree is ");
         tree.printSpiral(tree.root);
     }
-}
 }
