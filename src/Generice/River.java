@@ -1,16 +1,16 @@
 package Generice;
 
-public class Park extends Point{
+public class River extends Line{
 
     private String name;
 
-    public Park(String name, String location) {
-        super(location);
+    public River(String name, String... locations) {
+        super(locations);
         this.name = name;
     }
 
     @Override
     public String toString() {
-        return name + " National Park";
+        return name + " River";
     }
 }

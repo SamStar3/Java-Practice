@@ -1,2 +1,4 @@
-package Generice;public class Main {
+package Generice;
+
+public class Main {
 }
