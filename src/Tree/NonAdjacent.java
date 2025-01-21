@@ -4,67 +4,42 @@ import java.util.ArrayList;
 
 public class NonAdjacent {
 
-    public ArrayList<Integer> serialize(Node root) {
-        ArrayList<Integer> result = new ArrayList<>();
-        serializeHelper(root, result);
-        return result;
+    static int getMaxSum(Node root) {
+        // Helper function to calculate the maximum sum for each node.
+        int[] result = solve(root);
+        // The result is the maximum of including or excluding the root.
+        return Math.max(result[0], result[1]);
     }
 
-    private void serializeHelper(Node node, ArrayList<Integer> result) {
+    // Helper function to calculate the include and exclude values.
+    private static int[] solve(Node node) {
+        // Base case: if the node is null, both include and exclude are 0.
         if (node == null) {
-            result.add(-1); // Using -1 to represent null nodes.
-            return;
-        }
-        result.add(node.key);
-        serializeHelper(node.left, result);
-        serializeHelper(node.right, result);
-    }
-
-    // Function to deserialize a list and construct the tree.
-    public Node deSerialize(ArrayList<Integer> arr) {
-        // Using an index wrapped in an array to keep track of current position during recursion.
-        int[] index = {0};
-        return deSerializeHelper(arr, index);
-    }
-
-    private Node deSerializeHelper(ArrayList<Integer> arr, int[] index) {
-        if (index[0] >= arr.size() || arr.get(index[0]) == -1) {
-            index[0]++;
-            return null;
+            return new int[]{0, 0};
         }
 
-        Node root = new Node(arr.get(index[0]));
-        index[0]++;
-        root.left = deSerializeHelper(arr, index);
-        root.right = deSerializeHelper(arr, index);
+        // Recursively calculate for left and right subtrees.
+        int[] left = solve(node.left);
+        int[] right = solve(node.right);
 
-        return root;
+        // Include the current node: node's value + exclude from left and right.
+        int include = node.key + left[1] + right[1];
+
+        int exclude = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
+
+        return new int[]{include, exclude};
     }
+
     public static void main(String[] args) {
-        // Constructing a binary tree
-        Node root = new Node(10);
-        root.left = new Node(20);
-        root.right = new Node(30);
-        root.left.left = new Node(40);
-        root.left.right = new Node(60);
+        // Constructing the binary tree
+        Node root = new Node(1);
+        root.left = new Node(2);
+        root.right = new Node(3);
+        root.left.left = new Node(4);
+        root.right.left = new Node(5);
+        root.right.right = new Node(6);
 
-        NonAdjacent tree = new NonAdjacent();
-
-        // Serialize the tree
-        ArrayList<Integer> serializedTree = tree.serialize(root);
-        System.out.println("Serialized Tree: " + serializedTree);
-
-        // Deserialize the tree
-        Node deserializedRoot = tree.deSerialize(serializedTree);
-
-        // Print the in-order traversal of the deserialized tree
-        printInOrder(deserializedRoot);
-    }
-
-    public static void printInOrder(Node root) {
-        if (root == null) return;
-        printInOrder(root.left);
-        System.out.print(root.key + " ");
-        printInOrder(root.right);
+        NonAdjacent solution = new NonAdjacent();
+        System.out.println("Maximum Sum of Non-Adjacent Nodes: " + solution.getMaxSum(root));
     }
 }
