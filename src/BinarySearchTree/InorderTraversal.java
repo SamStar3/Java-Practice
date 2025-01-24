@@ -1,2 +1,8 @@
-package BinarySearchTree;public class InorderTraversal {
+package BinarySearchTree;
+
+public class InorderTraversal {
+
+    public static  void main(String[] args){
+
+    }
 }
