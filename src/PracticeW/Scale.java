@@ -1,2 +1,4 @@
-package PracticeW;public class Scale {
+package PracticeW;
+
+public class Scale {
 }
