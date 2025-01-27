@@ -1,2 +1,4 @@
-package Generice;public class QueryItem {
+package Generice;
+
+public class QueryItem {
 }
