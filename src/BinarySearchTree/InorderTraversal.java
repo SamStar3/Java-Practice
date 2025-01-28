@@ -10,7 +10,6 @@ public class InorderTraversal {
         return result;
     }
 
-    // Helper function to perform the in-order traversal.
     void inOrderTraversal(Node root, ArrayList<Integer> result) {
         if (root == null) {
             return;
