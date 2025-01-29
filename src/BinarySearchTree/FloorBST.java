@@ -1,2 +1,4 @@
-package BinarySearchTree;public class FloorBST {
+package BinarySearchTree;
+
+public class FloorBST {
 }

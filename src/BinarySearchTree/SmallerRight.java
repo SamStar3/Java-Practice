@@ -1,2 +1,4 @@
-package BinarySearchTree;public class SmallerRight {
+package BinarySearchTree;
+
+public class SmallerRight {
 }

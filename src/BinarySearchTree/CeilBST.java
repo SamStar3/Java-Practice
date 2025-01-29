@@ -1,2 +1,4 @@
-package BinarySearchTree;public class CeilBST {
+package BinarySearchTree;
+
+public class CeilBST {
 }
