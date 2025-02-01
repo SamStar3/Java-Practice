@@ -1,2 +1,4 @@
-package NestedClasses;public class Album {
+package NestedClasses;
+
+public class Album {
 }
