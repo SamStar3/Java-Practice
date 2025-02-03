@@ -1,2 +1,4 @@
-package NestedClasses;public class MainClass {
+package NestedClasses;
+
+public class MainClass {
 }
