@@ -1,2 +1,4 @@
-package BinarySearchTree;public class FindCommonNodes {
+package BinarySearchTree;
+
+public class FindCommonNodes {
 }

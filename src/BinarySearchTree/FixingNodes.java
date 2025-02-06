@@ -1,2 +1,4 @@
-package BinarySearchTree;public class FixingNodes {
+package BinarySearchTree;
+
+public class FixingNodes {
 }

@@ -1,2 +1,4 @@
-package BinarySearchTree;public class MergeBST {
+package BinarySearchTree;
+
+public class MergeBST {
 }

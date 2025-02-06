@@ -1,2 +1,4 @@
-package BinarySearchTree;public class CheckBST {
+package BinarySearchTree;
+
+public class CheckBST {
 }

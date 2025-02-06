@@ -1,2 +1,4 @@
-package BinarySearchTree;public class PairSum {
+package BinarySearchTree;
+
+public class PairSum {
 }
