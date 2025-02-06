@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ClosestBST {
 
     static int minDiff(Node root, int K) {
+
         int minDiff = Integer.MAX_VALUE;
 
         while (root != null) {
@@ -23,7 +24,7 @@ public class ClosestBST {
         }
         return minDiff;
     }
-    static Node insert(Node root, int key) {
+     static Node insert(Node root, int key) {
         if (root == null) {
             return new Node(key);
         }
