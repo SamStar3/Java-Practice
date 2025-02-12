@@ -6,40 +6,75 @@ import java.util.Queue;
 
 public class ConvertLevel {
 
-    static ArrayList<Integer> levelOrder(Node node) {
-        ArrayList<Integer> result = new ArrayList<>();
-        if (node == null) return result;
+    public Node constructBST(int[] arr) {
+        if (arr == null || arr.length == 0) return null;
 
-        Queue<Node> queue = new LinkedList<>();
-        queue.add(node);
+        // Queue to store nodes and their permissible value range
+        Queue<Pair> queue = new LinkedList<>();
+        Node root = new Node(arr[0]);
+        queue.add(new Pair(root, Integer.MIN_VALUE, Integer.MAX_VALUE));
 
-        while (!queue.isEmpty()) {
-            Node current = queue.poll();
-            result.add(current.data);
+        int index = 1;
+        while (index < arr.length) {
+            Pair current = queue.poll();
+            Node currentNode = current.node;
+            int min = current.min;
+            int max = current.max;
 
-            if (current.left != null) queue.add(current.left);
-            if (current.right != null) queue.add(current.right);
+            // Add left child if it exists and is within the range
+            if (index < arr.length && arr[index] > min && arr[index] < currentNode.data) {
+                currentNode.left = new Node(arr[index]);
+                queue.add(new Pair(currentNode.left, min, currentNode.data));
+                index++;
+            }
+
+            // Add right child if it exists and is within the range
+            if (index < arr.length && arr[index] > currentNode.data && arr[index] < max) {
+                currentNode.right = new Node(arr[index]);
+                queue.add(new Pair(currentNode.right, currentNode.data, max));
+                index++;
+            }
         }
 
-        return result;
+        return root;
     }
 
-    // Test the function
-    public static void main(String[] args) {
-        // Example 1
-        Node root1 = new Node(5);
-        root1.left = new Node(2);
-        root1.right = new Node(7);
-        root1.left.right = new Node(3);
-        root1.right.right = new Node(8);
+    // Utility function to perform preorder traversal
+    public void preorderTraversal(Node root) {
+        if (root == null) return;
+        System.out.print(root.data + " ");
+        preorderTraversal(root.left);
+        preorderTraversal(root.right);
+    }
 
-        System.out.println("Level Order Traversal: " + levelOrder(root1));
+    // Helper class to store node and its permissible range
+    class Pair {
+        Node node;
+        int min, max;
+
+        Pair(Node node, int min, int max) {
+            this.node = node;
+            this.min = min;
+            this.max = max;
+        }
+    }
+
+    // Driver code to test the implementation
+    public static void main(String[] args) {
+        ConvertLevel gfg = new ConvertLevel();
+
+        // Example 1
+        int[] arr1 = {7, 4, 12, 3, 6, 8, 1, 5, 10};
+        Node root1 = gfg.constructBST(arr1);
+        System.out.print("Preorder Traversal: ");
+        gfg.preorderTraversal(root1); // Output: 7 4 3 1 6 5 12 8 10
+
+        System.out.println();
 
         // Example 2
-        Node root2 = new Node(30);
-        root2.left = new Node(10);
-        root2.left.right = new Node(20);
-
-        System.out.println("Level Order Traversal: " + levelOrder(root2));
+        int[] arr2 = {1, 3, 4, 6, 7, 8};
+        Node root2 = gfg.constructBST(arr2);
+        System.out.print("Preorder Traversal: ");
+        gfg.preorderTraversal(root2); // Output: 1 3 4 6 7 8
     }
 }
