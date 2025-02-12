@@ -1,2 +1,4 @@
-package BinarySearchTree;public class LevelOrder {
+package BinarySearchTree;
+
+public class LevelOrder {
 }
