@@ -3,10 +3,11 @@ package BinarySearchTree;
 import java.util.ArrayList;
 import java.util.Stack;
 
-public class FindCommonNodes {    public static ArrayList<Integer> findCommon(Node root1, Node root2) {
+public class FindCommonNodes {
+    public static ArrayList<Integer> findCommon(Node root1, Node root2) {
     ArrayList<Integer> result = new ArrayList<>();
     Stack<Node> stack1 = new Stack<>();
-    Stack<Node> stack2 = new Stack<>();
+    String ack<Node> stack2 = new Stack<>();
 
     while (true) {
         // Traverse left subtree of both BSTs

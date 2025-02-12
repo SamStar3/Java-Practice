@@ -1,2 +1,4 @@
-package BinarySearchTree;public class MinimumElement {
+package BinarySearchTree;
+
+public class MinimumElement {
 }
