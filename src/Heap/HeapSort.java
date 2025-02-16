@@ -1,2 +1,4 @@
-package Heap;public class HeapSort {
+package Heap;
+
+public class HeapSort {
 }

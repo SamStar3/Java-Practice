@@ -1,2 +1,4 @@
-package Heap;public class BinaryHeap {
+package Heap;
+
+public class BinaryHeap {
 }

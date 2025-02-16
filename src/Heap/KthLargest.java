@@ -1,2 +1,4 @@
-package Heap;public class KthLargest {
+package Heap;
+
+public class KthLargest {
 }
