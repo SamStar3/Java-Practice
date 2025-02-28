@@ -1,2 +1,8 @@
-package PracticeW;public class Marge {
+package PracticeW;
+
+public class Marge {
+
+    public static void main(String[] args){
+
+    }
 }
