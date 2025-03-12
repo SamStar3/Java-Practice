@@ -1,2 +1,5 @@
-package HackerRank;public class JavaSHA256 {
+package HackerRank;
+
+public class JavaSHA256 {
+
 }
