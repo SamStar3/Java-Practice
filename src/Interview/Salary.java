@@ -25,5 +25,10 @@ public class Salary {
         System.out.println(map);
 
 
+        System.out.println("Sams person Salary is " + map.get("sam"));
+
+        System.out.println("Rams person Salary is " + map.get("ram"));
+
+        System.out.println("Total Average is " + ((map.get("sam") + map.get("ram")) / 2));
     }
 }
