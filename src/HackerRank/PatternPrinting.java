@@ -1,2 +1,4 @@
-package HackerRank;public class PatternPrinting {
+package HackerRank;
+
+public class PatternPrinting {
 }
