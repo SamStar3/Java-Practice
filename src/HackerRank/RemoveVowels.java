@@ -1,5 +1,7 @@
 package HackerRank;
 
+import java.util.Scanner;
+
 public class RemoveVowels {
 
 //    static String vowels(String str){
@@ -43,8 +45,14 @@ public class RemoveVowels {
 
     public static void main(String[] args){
 
-        String str = "Camputer";
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println(vowels(str));
+        System.out.print("Enter a string: ");
+        String input = scanner.nextLine();
+
+        String output = removeVowels(input);
+        System.out.println("Output: " + output);
+
+        scanner.close();
     }
 }

@@ -1,2 +1,4 @@
-package HackerRank;public class PrimeNum {
+package HackerRank;
+
+public class PrimeNum {
 }
