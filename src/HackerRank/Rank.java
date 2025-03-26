@@ -1,2 +1,7 @@
-package HackerRank;public class Rank {
+package HackerRank;
+
+public class Rank {
+    public static void main(String[] args){
+
+    }
 }
