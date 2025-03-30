@@ -1,2 +1,8 @@
-package PracticeW;public class StringOfSum {
+package PracticeW;
+
+public class StringOfSum {
+
+    public static void main(String[] args){
+
+    }
 }
