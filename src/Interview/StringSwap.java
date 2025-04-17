@@ -1,2 +1,4 @@
-package Interview;public class StringSwap {
+package Interview;
+
+public class StringSwap {
 }
