@@ -6,5 +6,6 @@ public class FinalFinally {
 
 
 
+        System.out.println("FinalFinally");
     }
 }
