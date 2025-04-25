@@ -1,2 +1,8 @@
-package Heap;public class KthSmallest {
+package Heap;
+
+public class KthSmallest {
+    public static void main(String[] args){
+
+
+    }
 }
