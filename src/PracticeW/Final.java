@@ -1,2 +1,9 @@
-package PracticeW;public class Final {
+package PracticeW;
+
+public class Final {
+
+    public static void main(String[] args){
+
+
+    }
 }
