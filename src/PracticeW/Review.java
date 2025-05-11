@@ -1,2 +1,9 @@
-package PracticeW;public class Review {
+package PracticeW;
+
+public class Review {
+
+    public static void main(String[] args){
+
+
+    }
 }
