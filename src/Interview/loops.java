@@ -1,2 +1,10 @@
-package Interview;public class loops {
+package Interview;
+
+public class loops {
+
+
+    public static void main(String[] args){
+
+
+    }
 }
