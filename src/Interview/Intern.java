@@ -1,2 +1,7 @@
-package Interview;public class Intern {
+package Interview;
+
+public class Intern {
+
+
+
 }
