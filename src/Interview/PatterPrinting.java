@@ -7,21 +7,37 @@ public class PatterPrinting {
 
 //        System.out.println("PattenPrinting");
 
+//        String[] str = {"abc","def","ghi"};
+//        int n = 5;
+//        int row = str.length;
+//
+//        for (int i = 0; i < n; i ++){
+//            System.out.print("*");
+//        }
+//        System.out.println();
+//
+//        for (int i = 0; i < row; i++){
+//            System.out.print("*");
+//            System.out.print(str[i]);
+//            System.out.println("*");
+//        }
+//
+//        for (int i = 0; i < n; i++){
+//            System.out.print("*");
+//        }
+
         String[] str = {"abc","def","ghi"};
         int n = 5;
-        int row = str.length;
 
-        for (int i = 0; i < n; i ++){
+        for (int i = 0; i < n; i++){
             System.out.print("*");
         }
         System.out.println();
-
-        for (int i = 0; i < row; i++){
+        for (int i = 0; i < str.length; i++){
             System.out.print("*");
             System.out.print(str[i]);
             System.out.println("*");
         }
-
         for (int i = 0; i < n; i++){
             System.out.print("*");
         }
