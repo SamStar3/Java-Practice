@@ -1,2 +1,9 @@
-package Interview;public class Date {
+package Interview;
+
+public class Date {
+
+    public static void main(String[] args){
+
+
+    }
 }
